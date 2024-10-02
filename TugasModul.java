@@ -3,7 +3,7 @@ package com.example;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class TugasModul4 {
+public class TugasModul {
     //adzka
     static void salam(String Halo) {
         System.out.println("Salam :" + Halo);
