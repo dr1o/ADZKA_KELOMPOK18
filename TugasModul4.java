@@ -4,22 +4,19 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class TugasModul4 {
-    //non-return type dengan parameter
+    //adzka
     static void salam(String Halo) {
         System.out.println("Salam :" + Halo);
     }
 
-    //return type tanpa parameter
     static String returnText() {
         return "Selamat datang di burjo 18";
     }
 
-    //return type dengan parameter
     static String returnParam(String text) {
         return text;
     }
 
-    //non-return type tanpa parameter
     static void pilihMenu() {
         String[] pilihan = {"paket 1: ayam bakar","paket 2: ayam goreng", "paket 3: ayam bali",
                 "paket 4: ayam bakar + es teh manis","paket 5: ayam goreng + teh hangat"};
@@ -27,7 +24,6 @@ public class TugasModul4 {
         System.out.println(Arrays.toString(pilihan));
     }
 
-    //method
     public void bayar() {
         Scanner input = new Scanner(System.in);
         System.out.println("masukan jumlah pesanan (masukan angka): ");
