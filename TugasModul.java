@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class TugasModul4 {
-    //adzka
     static void salam(String Halo) {
         System.out.println("Salam :" + Halo);
     }
